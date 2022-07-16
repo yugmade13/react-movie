@@ -5,7 +5,7 @@ import MovieCard from './components/MovieCard';
 
 import './App.css';
 
-const API_URL = 'https://www.omdbapi.com/?apikey=4a026a30';
+const API_URL = 'https://www.omdbapi.com/?apikey=[your api key]';
 
 export default function App() {
     const [searchTerm, setSearchTerm] = useState('');
